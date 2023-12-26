@@ -1,0 +1,28 @@
+#cal{
+    text-align: center;
+    color: rgb(70, 40, 40);
+    padding-bottom: 2px;
+}
+#Calculator{
+    border: 1px solid rgb(109, 105, 105);
+    border-radius: 5px;
+    width: 200px;
+    background-color: rgb(78, 174, 229);
+}
+#display{
+    border: 3px solid rgb(52, 15, 15);
+    margin: 10px;
+    width: 87%;
+    font-size: 25px;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.btn{
+    border-radius: 10px;
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+}
