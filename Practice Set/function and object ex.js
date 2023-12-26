@@ -9,9 +9,17 @@ console.log(result);
 let product = {
     company: 'Mango',
     price: 900,
-    item: 'shirt'
-}
+    item: 'shirt',
+    rating : {
+        stars: 4,
+        noOfLikes: 1000
+    },
+    displayPrice: function(){
+        console.log(`Price of shirt is: ${this.price}`);
+    }
+};
 console.log(product);
+product.displayPrice();
 console.log(product.company);
 console.log(product.price);
 console.log(product.item);
